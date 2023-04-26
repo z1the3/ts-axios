@@ -1,6 +1,6 @@
 {
   "name": "ts-axios-zither",
-  "version": "0.0.41",
+  "version": "0.0.42",
   "description": "",
   "keywords": [],
   "main": "dist/axios.umd.js",
