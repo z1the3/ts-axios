@@ -8,7 +8,6 @@ import Cancel, { isCancel } from './cancel/Cancel'
 
 function createInstance(config: AxiosRequestConfig): AxiosStatic {
   const context = new Axios(config)
-
   // 把Axios类隐藏，直接返回其main方法
   // 可以通过 实例({参数}) 直接使用
   const instance = Axios.prototype.request.bind(context)
